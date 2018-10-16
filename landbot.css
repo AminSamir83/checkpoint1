@@ -1,0 +1,126 @@
+body{
+  background: linear-gradient(135deg, #564a9e 0%,#b8448e 51%,#ec3e73 100%);
+  font-family: sans-serif;
+  margin: auto;
+}
+.header-menu {
+  display:flex;
+  justify-content: space-between;
+  color: white;
+  padding: 40px;
+}
+.title {
+  font-size:28px;
+  font-weight: bold;
+}
+.button {
+  margin: 10px;
+  padding: 10px 30px;
+  border-radius: 80px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.login-button:hover {
+  background-color: #a683c9;
+  
+}
+.signup-button:hover {
+  background-color: #ef0075;
+}
+.signup-button{
+  border: 2px solid white;
+}
+.main-section{
+  
+}
+.center-div{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+}
+.text-div{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  color: #5d4fad;
+}
+.img{
+    width: 60%;
+  height: 100px;
+    background: url(https://storage.googleapis.com/media.helloumi.com/channels/0_2wVkhpa.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+  border-radius: 10px;
+}
+.text-div2{
+  width:60%;
+}
+.text-div-signup{
+  width: 30%;
+  float: right;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  color: #5d4fad;
+}
+.text-div-hooray{
+  width: 30%;
+  float: left;
+}
+.type-name{
+ color: white;
+}
+.options-section{
+    width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  
+}
+.choose-option{
+  color:white;
+  text-transform: uppercase;
+  font-size:12px;
+  }
+.user-options{
+  display:flex;
+}
+.create-bot{
+  color:white;
+  font-weight:bold;
+  background-color: rgb(255, 30, 148);
+  border: 1px solid #ef0075;
+  width:50%;
+  height:70px;
+  margin:5px ;
+  padding:5px;
+     
+}
+.information{
+  color:white;
+  font-weight:bold;
+  background-color: rgb(255, 30, 148);
+  border: 1px solid #ef0075;
+  width:50%;
+  margin:5px ;
+  padding:5px;
+   
+}
+.create-bot:hover{
+  background-color:rgb(238, 0, 118);
+}
+
+.information:hover{
+  background-color:rgb(238, 0, 118);
+}
+.privacy-link {
+  
+  color: white;
+  text-decoration: underline;
+}
